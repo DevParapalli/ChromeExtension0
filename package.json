@@ -1,0 +1,21 @@
+{
+  "name": "ChromeExtension0",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "Devansh Parapalli",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.12.1",
+    "vite": "^5.2.11"
+  },
+  "devDependencies": {
+    "ncp": "^2.0.0"
+  }
+}

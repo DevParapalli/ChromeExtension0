@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "LinkSaver",
+    "description": "Assignment Extension created for Solocl",
+    "version": "0.0.1",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs", 
+        "storage",
+        "identity",
+        "identity.email"
+    ],
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuI+9Y3Y1x7ETYupl0+hFB+toliNOW9Y4n7aMJg8YrPKoKCscGDC4RcQyageIyB7n7aVNCIvj+6SWkRXGH/IMonuh8jJixMUZpW9INTbJE/zQ1k7J29Yc/VBFxDA+exua1INN1NTZzl67/4ZD//3I0iiomK1mi+g1qYgxAHB6v37FZBU4izT3P1OaRjbYBqviZoIPDb8hUHvpPw2Z5yzjOPIBzLklmsQoW70IUD58CrU5Ad/bULJZYwkVnerKnm2QLkMWaFCatNEY9iaptGe9PTs00C32U4D94Fxbf5KL21TI+/mKDDtsRzDGdH9wkWskFeKZD3KnIfk3NXzGgNBatwIDAQAB",
+    "oauth2":{
+      "client_id": "583176469710-psrn8f83nvojpdab0kuiv4s790gvh0eo.apps.googleusercontent.com",
+      "scopes": ["https://www.googleapis.com/auth/userinfo.email"]
+    },
+    "background": {
+      "service_worker": "sw.js",
+      "type": "module"
+    }
+  }

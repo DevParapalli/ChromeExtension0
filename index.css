@@ -1,0 +1,9 @@
+html {
+    min-width: 30rem;
+    min-height: 15rem;
+}
+
+ol > li > button {
+    margin-left: 0.5rem;
+    margin-bottom: 0.25rem;
+}
